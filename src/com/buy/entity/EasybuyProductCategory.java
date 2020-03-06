@@ -6,10 +6,10 @@ import java.io.Serializable;
  * (EasybuyProductCategory)实体类
  *
  * @author makejava
- * @since 2020-02-18 12:09:16
+ * @since 2020-02-18 12:17:15
  */
 public class EasybuyProductCategory implements Serializable {
-    private static final long serialVersionUID = 823424824900642290L;
+    private static final long serialVersionUID = 407166841764408335L;
     /**
     * 主键
     */

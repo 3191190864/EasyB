@@ -1,6 +1,10 @@
 package com.buy.utils;
+
+
 import org.apache.commons.codec.digest.DigestUtils;
+
 public class SecurityUtils {
+
     /**
      * md5加密
      *

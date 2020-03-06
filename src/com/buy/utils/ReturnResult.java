@@ -2,6 +2,10 @@ package com.buy.utils;
 
 import java.io.Serializable;
 
+
+/**
+ * Created by bdqn on 2016/4/21.
+ */
 public class ReturnResult implements Serializable {
     private int status;
     private Object data;

@@ -6,10 +6,10 @@ import java.io.Serializable;
  * (EasybuyProduct)实体类
  *
  * @author makejava
- * @since 2020-02-18 12:09:16
+ * @since 2020-02-18 12:17:15
  */
 public class EasybuyProduct implements Serializable {
-    private static final long serialVersionUID = 724734286183297488L;
+    private static final long serialVersionUID = -91744925791473177L;
     /**
     * 主键
     */
@@ -25,7 +25,7 @@ public class EasybuyProduct implements Serializable {
     /**
     * 价格
     */
-    private Object price;
+    private float price;
     /**
     * 库存
     */
@@ -76,11 +76,11 @@ public class EasybuyProduct implements Serializable {
         this.description = description;
     }
 
-    public Object getPrice() {
+    public float getPrice() {
         return price;
     }
 
-    public void setPrice(Object price) {
+    public void setPrice(float price) {
         this.price = price;
     }
 

@@ -6,10 +6,10 @@ import java.io.Serializable;
  * (EasybuyUser)实体类
  *
  * @author makejava
- * @since 2020-02-18 12:09:16
+ * @since 2020-02-18 12:17:15
  */
 public class EasybuyUser implements Serializable {
-    private static final long serialVersionUID = 570801877143743511L;
+    private static final long serialVersionUID = 723790665168390945L;
     /**
     * 主键
     */
@@ -49,7 +49,7 @@ public class EasybuyUser implements Serializable {
 
 
     public Integer getId() {
-        return id;
+        return this.id;
     }
 
     public void setId(Integer id) {
@@ -113,7 +113,7 @@ public class EasybuyUser implements Serializable {
     }
 
     public Integer getType() {
-        return type;
+        return this.type;
     }
 
     public void setType(Integer type) {

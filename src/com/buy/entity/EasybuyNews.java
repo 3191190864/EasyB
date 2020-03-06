@@ -6,10 +6,10 @@ import java.io.Serializable;
  * (EasybuyNews)实体类
  *
  * @author makejava
- * @since 2020-02-18 12:09:16
+ * @since 2020-02-18 12:17:15
  */
 public class EasybuyNews implements Serializable {
-    private static final long serialVersionUID = -65122589958790576L;
+    private static final long serialVersionUID = -31944828723866999L;
     /**
     * 主键
     */

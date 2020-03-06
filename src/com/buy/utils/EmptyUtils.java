@@ -1,4 +1,5 @@
 package com.buy.utils;
+
 import java.util.Collection;
 import java.util.Map;
 
@@ -38,7 +39,6 @@ public class EmptyUtils {
     public static boolean isNotEmpty(Object obj){
         return !isEmpty(obj);
     }
-
 
 
     private boolean validPropertyEmpty(Object ...args) {

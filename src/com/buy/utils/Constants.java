@@ -1,5 +1,4 @@
 package com.buy.utils;
-
 public class Constants {
     /**
      * json 格式返回数据的 status 标示说明

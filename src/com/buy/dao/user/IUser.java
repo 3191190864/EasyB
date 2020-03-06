@@ -3,7 +3,21 @@ package com.buy.dao.user;
 import com.buy.entity.EasybuyUser;
 
 import java.sql.SQLException;
+import java.util.List;
 
 public interface IUser {
-    EasybuyUser getUserByLoginName(String loginName) throws SQLException, ClassNotFoundException;
+    EasybuyUser loginByName(String name) throws SQLException;
+    /**
+     * 登陆查询是否成功
+     * @param name
+     * @param password
+     * @return
+     */
+    int queryAllUser(String name, String password);
+
+    /**
+     *
+     * @return
+     */
+    int save(EasybuyUser user);
 }

@@ -1,12 +1,13 @@
 package com.buy.utils;
+
 import com.alibaba.fastjson.JSONObject;
+
+import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 import java.io.PrintWriter;
-import javax.servlet.http.HttpServletResponse;
 
 public class PrintUtil {
-
-    private static void print(String msg,HttpServletResponse response){
+    private static void print(String msg, HttpServletResponse response){
         PrintWriter writer=null;
         try {
             if(null != response){

@@ -7,10 +7,10 @@ import java.io.Serializable;
  * (EasybuyUserAddress)实体类
  *
  * @author makejava
- * @since 2020-02-18 12:09:16
+ * @since 2020-02-18 12:17:15
  */
 public class EasybuyUserAddress implements Serializable {
-    private static final long serialVersionUID = 549373993329826060L;
+    private static final long serialVersionUID = 938494332648157533L;
     /**
     * 主键id
     */

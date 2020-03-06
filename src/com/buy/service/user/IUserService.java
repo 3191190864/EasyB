@@ -5,5 +5,9 @@ import com.buy.entity.EasybuyUser;
 import java.sql.SQLException;
 
 public interface IUserService {
-    EasybuyUser getUserByName(String loginName) throws SQLException, ClassNotFoundException;
+
+    EasybuyUser loginByName(String name) throws SQLException;
+    int queryAllUser(String name, String password);
+
+    boolean save(EasybuyUser user);
 }
